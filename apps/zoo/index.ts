@@ -1,5 +1,5 @@
-import { getRandomAnimal } from "@tuskdesign/animals";
-import { getRandomName } from "@tuskdesign/names";
+import { getRandomAnimal } from "@speaklogicai/animals";
+import { getRandomName } from "@speaklogicai/names";
 
 const name = getRandomName();
 const animal = getRandomAnimal();

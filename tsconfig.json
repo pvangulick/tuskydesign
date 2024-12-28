@@ -4,13 +4,16 @@
   "files": [],
   "references": [
     {
-      "path": "./packages/animals"
+      "path": "./apps/animals"
     },
     {
-      "path": "./packages/names"
+      "path": "./apps/names"
     },
     {
-      "path": "./packages/zoo"
+      "path": "./apps/util"
+    },
+    {
+      "path": "./apps/zoo"
     }
   ]
 }
