@@ -9,7 +9,7 @@
     "typings": "./dist/index.d.ts",
     "private": true,
     "nx": {
-        "sourceRoot": "packages/util/src",
+        "sourceRoot": "apps/util/src",
         "projectType": "library",
         "name": "util"
     }

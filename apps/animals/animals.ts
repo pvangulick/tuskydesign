@@ -1,4 +1,4 @@
-//import { getRandomItem } from "@speaklogicai/util";
+import { getRandomItem } from "@speaklogicai/util";
 
 export type Animal = {
     name: string;
@@ -30,8 +30,4 @@ export const ANIMALS = [
 
 export function getRandomAnimal() {
     return getRandomItem(ANIMALS);
-}
-
-export function getRandomItem<T>(arr: T[]): T {
-    return arr[Math.floor(Math.random() * arr.length)];
 }

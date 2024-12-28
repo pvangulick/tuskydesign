@@ -4,11 +4,7 @@
     "build": {
       "dependsOn": [
         "^build"
-      ],
-      "outputs": [
-        "{projectRoot}/dist"
-      ],
-      "cache": true
+      ]
     },
     "typecheck": {
       "cache": true

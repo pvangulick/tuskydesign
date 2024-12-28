@@ -1,8 +1,4 @@
-//import { getRandomItem } from "@speaklogicai/util";
-
-export function getRandomItem<T>(arr: T[]): T {
-    return arr[Math.floor(Math.random() * arr.length)];
-}
+import { getRandomItem } from "@speaklogicai/util";
 
 export const NAMES = [
     "Brie",
